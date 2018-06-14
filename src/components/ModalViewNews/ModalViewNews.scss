@@ -1,0 +1,47 @@
+.modal_wrapper {
+    background: #fff;
+    padding: 20px;
+    z-index:999;
+    border: 1px solid #bfbfbf;
+    width: 50%;
+    height:auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari */
+    border-radius: 4px;
+    box-shadow: 0 0 50px rgba(black,0.5);
+
+    .close_btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor:pointer;
+        width: 15px;
+        height: 15px;
+        background:url('../../images/close-btn.png') no-repeat center center;
+        background-size: cover;
+
+        &:hover {
+            opacity: .6;
+            transition: all ease .2s;
+			transform: rotate(540deg);
+        }
+    }
+
+
+    &__content {
+
+        img {
+            width: 100%;
+        }
+        .source {
+            margin: 20px 0;
+        }
+
+    }
+}
+

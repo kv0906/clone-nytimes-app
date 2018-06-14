@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.heading {
+  font-weight: 700;
+  font-size: 25px;
+}
+.pubDate {
+  font-size: 15px;
+  color: #bfbfbf;
+}
+.source {
+  font-size: 13px;
+  color: #999999;
+  cursor: pointer;
+}
+.source:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.heading h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.subheading {
+  font-weight: 400;
+  font-size: 20px;
+}
+.paragraph {
+  font-weight: 300;
+  font-size: 13px;
+}
+#page-numbers {
+  list-style-type: none;
+  padding:0;
+  font-size: 15px;
+  color: #000;
+  display:flex;
+  margin: 50px 0;
+  justify-content: center;
+}
+#page-numbers li {
+  padding-right: 20px;
+  cursor: pointer;
+}
+#page-numbers li:hover {
+  opacity: .5;
+  transition: all ease .2s;
+}
+#page-numbers li.active {
+  color: #000;
+}
+
+
